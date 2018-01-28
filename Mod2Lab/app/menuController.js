@@ -10,7 +10,10 @@ app.controller("menuController", [
         });
         
         $scope.changeMainDish = function (item){
-            $scope.model.mainDish = item;
+            $scope.mainDish.name = item;
+        $scope.changePrice = function (item){
+            $scope.mainDish.price = item;
+
         }
     }
 ]);
