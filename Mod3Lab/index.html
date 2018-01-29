@@ -21,7 +21,7 @@
 		</div>
 
 		<!-- <div ng-show="model.search" ng-repeat="t in model.availableToppings"> -->
-                <div ng-show="model.search" ng-repeat="t in model.availableToppings | filter:model.search">
+        <div ng-show="model.search" ng-repeat="t in model.availableToppings | filter:model.search">
 			<span ng-click="addTopping(t)">{{t}}</span>
 		</div>
 
